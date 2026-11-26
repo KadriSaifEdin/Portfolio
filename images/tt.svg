@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1116 702" role="img" aria-label="Tunisie Télécom">
+  <defs>
+    <clipPath id="drop"><path d="M1062 355C910 200 700 62 450 30C250 8 40 130 35 350C30 560 200 690 420 672C650 652 900 520 1062 355Z"/></clipPath>
+    <radialGradient id="base" cx=".18" cy=".5" r=".75"><stop offset="0" stop-color="#3b14a8"/><stop offset=".55" stop-color="#2a1a9a"/><stop offset="1" stop-color="#4a3ccf"/></radialGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f6fe0"/><stop offset=".5" stop-color="#3aa6ee"/><stop offset="1" stop-color="#31b8e8"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fbf7a"/><stop offset="1" stop-color="#6ec443"/></linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6c926"/><stop offset="1" stop-color="#fde24f"/></linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ee7a1c"/><stop offset="1" stop-color="#f6a321"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3202f"/><stop offset="1" stop-color="#c4206e"/></linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#10003a" flood-opacity=".35"/></filter>
+  </defs>
+  <g clip-path="url(#drop)">
+    <rect width="1116" height="702" fill="url(#base)"/>
+    <polygon points="700,375 230,-80 600,-80" fill="url(#blue)"/>
+    <polygon points="700,375 600,-80 1000,80 925,200" fill="url(#green)"/>
+    <polygon points="700,375 925,200 1130,290 1130,430 930,495" fill="url(#yellow)"/>
+    <polygon points="700,375 930,495 820,720 640,720" fill="url(#orange)"/>
+    <polygon points="700,375 640,720 330,720 440,490" fill="url(#red)"/>
+    <polygon points="700,375 440,490 300,420 230,-80" fill="url(#base)" opacity=".0"/>
+  </g>
+  <g fill="#fff" filter="url(#sh)">
+    <rect x="130" y="180" width="272" height="72" rx="36"/><rect x="226" y="180" width="80" height="320" rx="40"/>
+    <rect x="445" y="180" width="272" height="72" rx="36"/><rect x="541" y="180" width="80" height="320" rx="40"/>
+  </g>
+  <text x="160" y="598" font-family="Arial,Helvetica,sans-serif" font-style="italic" font-weight="700" font-size="54" fill="#fff" opacity=".85">télécom</text>
+</svg>
